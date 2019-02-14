@@ -48,8 +48,6 @@ app.get('/trailers/:path/:trailerLink', function (req, res) {
         res.write('TODO, show index?\n');
         res.end();
     } else {
-        // Symbolic link, other?
-        // TODO: follow symlinks?  security?
         res.writeHead(500, {'Content-Type': 'text/plain'});
         res.write('500 Internal server error\n');
         res.end();
