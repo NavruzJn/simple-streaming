@@ -41,15 +41,7 @@ app.get('/trailers/:path/:trailerLink', function (req, res) {
 
         const fileStream = fs.createReadStream(filename);
         fileStream.pipe(res);
-    } else if (stats.isDirectory()) {
-        // path exists, is a directory
-        res.writeHead(200, {'Content-Type': 'text/plain'});
-        res.write('Index of '+uri+'\n');
-        res.write('TODO, show index?\n');
-        res.end();
     } else {
-        // Symbolic link, other?
-        // TODO: follow symlinks?  security?
         res.writeHead(500, {'Content-Type': 'text/plain'});
         res.write('500 Internal server error\n');
         res.end();

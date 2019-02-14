@@ -1,0 +1,19 @@
+{
+  "1": {
+    "name" : "Captain Marvel",
+    "description" : "Captain Marvel gets caught in the middle of a galactic war between two alien races.",
+    "link" : "http://localhost:8081/trailers/captain/index.m3u8"
+  },
+
+  "2": {
+    "name" : "Frozen 2",
+    "description" : "Elsa the Snow Queen and her sister embark on an adventure far away from the kingdom of Arendelle.",
+    "link" : "http://localhost:8081/trailers/frozen2/index.m3u8"
+  },
+
+  "3": {
+    "name" : "Shazam",
+    "description" : "Billy Batson is a streetwise 14-year-old who can magically transform into the adult superhero Shazam simply by shouting out one word. His newfound powers soon get put to the test when he squares off against the evil Dr. Thaddeus Sivana.",
+    "link" : "http://localhost:8081/trailers/shazam/index.m3u8"
+  }
+}
